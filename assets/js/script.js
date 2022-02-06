@@ -7,9 +7,10 @@ var tooltipList = tooltipTriggerList.map(function (tooltipTriggerEl) {
 
 /* Funciones JQuery */
 $(document).ready(function () {
+    
     var blanco = true;
 
-    /* Cambio de color Cabecera Sección Quienes Somos */
+    /* Cambio de color Cabecera Sección "Quienes Somos" */
     $(".header").hover(function () {
         $(this).css({
             "background-color": "white",
